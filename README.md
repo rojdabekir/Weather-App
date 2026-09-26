@@ -57,5 +57,46 @@ cd WeatherApp
 ```bash
 npm install
 ```
+### 4. Create the .env file
 
-### 4. Create the `.env` f
+Create a .env file in the root directory and add your OpenWeather API key:
+
+VITE_API_KEY=your_api_key_here
+
+### 5. Start the development server
+npm run dev
+
+Then open the local URL provided by Vite in your browser.
+
+## 📁 Project Structure
+
+WeatherApp/
+├── images/
+│   ├── cloudy.png
+│   ├── planet-earth.png
+│   ├── rain-drops.png
+│   ├── snowy.png
+│   └── sun.png
+├── src/
+│   ├── weatherDesign.css
+│   └── weatherScript.js
+├── .env
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
+
+.env is included in the local project structure but is excluded from Git using .gitignore.
+
+## 📌 How It Works
+Enter the name of a city in the search field.
+Click the search button or press Enter.
+The application sends a request to the OpenWeather API.
+The received weather data is displayed on the page.
+The background and weather icon change according to the current weather condition.
+If the city cannot be found, an error message is displayed.
+
+## 🎯 Project Goal
+
+This project was created as a practice project to improve JavaScript fundamentals, API integration, asynchronous programming, DOM manipulation, and working with environment variables using Vite.
