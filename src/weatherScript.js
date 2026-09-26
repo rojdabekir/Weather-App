@@ -16,7 +16,7 @@ const degree = document.createElement("h1");
 const cityCountry = document.createElement("h4");
 const earthImg = document.createElement("img");
 
-earthImg.src = "images/planet-earth.png";
+earthImg.src = "/images/planet-earth.png";
 earthImg.classList.add("earth");
 
 additionalInfoBox.classList.add("hidden");
