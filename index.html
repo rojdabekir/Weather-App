@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="src/weatherDesign.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-app">
+            <h3>Dali Vali App</h3>
+            <div class="search-row">
+                <input type="text" id="search-box" placeholder="search here a city">
+                <button id="search-btn">search</button>
+            </div>
+            <div class="main-box">
+                <p id="error-message"></p>
+            </div>
+            <div class="additional-info">
+                <h3 id="feels-like">Feels like: </h3>
+                <h3 id="humidity">Humidity: </h3>
+                <h3 id="wind">Wind: </h3>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="src/weatherScript.js"></script>
+</body>
+</html>
