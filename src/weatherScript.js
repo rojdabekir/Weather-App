@@ -16,7 +16,7 @@ const degree = document.createElement("h1");
 const cityCountry = document.createElement("h4");
 const earthImg = document.createElement("img");
 
-earthImg.src = "/images/planet-earth.png";
+earthImg.src = "images/planet-earth.png";
 earthImg.classList.add("earth");
 
 additionalInfoBox.classList.add("hidden");
@@ -91,18 +91,18 @@ function changeBackground(weather){
     additionalInfoBox.classList.remove("hidden");
     if(weather==="Clear"){
         weatherApp.classList.add("sunny");
-        iconImg.src = "/images/sun.png";
+        iconImg.src = "images/sun.png";
     }
     else if (weather==="Clouds" || weather==="Mist" || weather==="Fog" || weather==="Haze"){
         weatherApp.classList.add("cloudy");
-        iconImg.src = "/images/cloudy.png";
+        iconImg.src = "images/cloudy.png";
     } 
     else if(weather==="Rain" || weather==="Drizzle" || weather==="Thunderstorm"){
         weatherApp.classList.add("rainy");
-        iconImg.src = "/images/rain-drops.png";
+        iconImg.src = "images/rain-drops.png";
     }
     else if(weather==="Snow"){
         weatherApp.classList.add("snowy");
-        iconImg.src = "/images/snowy.png";
+        iconImg.src = "images/snowy.png";
     }
 }
