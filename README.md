@@ -4,6 +4,8 @@ A simple and interactive weather application built with HTML, CSS, and JavaScrip
 
 The application uses the OpenWeather API to retrieve current weather information for a searched city and dynamically changes the interface based on the current weather conditions.
 
+## 🎮 Live Demo: https://rojdabekir.github.io/Weather-App/
+
 ## ✨ Features
 
 * Search for weather by city name
