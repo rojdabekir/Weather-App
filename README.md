@@ -64,8 +64,10 @@ Create a .env file in the root directory and add your OpenWeather API key:
     VITE_API_KEY=your_api_key_here
 
 ### 5. Start the development server
-npm run dev
 
+    ```bash
+    npm run dev
+    ```
 Then open the local URL provided by Vite in your browser.
 
 ## 📁 Project Structure
