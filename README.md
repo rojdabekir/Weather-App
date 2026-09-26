@@ -70,22 +70,22 @@ Then open the local URL provided by Vite in your browser.
 
 ## 📁 Project Structure
 
-WeatherApp/
-├── images/
-│   ├── cloudy.png
-│   ├── planet-earth.png
-│   ├── rain-drops.png
-│   ├── snowy.png
-│   └── sun.png
-├── src/
-│   ├── weatherDesign.css
-│   └── weatherScript.js
-├── .env
-├── .gitignore
-├── index.html
-├── package.json
-├── package-lock.json
-└── README.md
+    WeatherApp/
+    ├── images/
+    │   ├── cloudy.png
+    │   ├── planet-earth.png
+    │   ├── rain-drops.png
+    │   ├── snowy.png
+    │   └── sun.png
+    ├── src/
+    │   ├── weatherDesign.css
+    │   └── weatherScript.js
+    ├── .env
+    ├── .gitignore
+    ├── index.html
+    ├── package.json
+    ├── package-lock.json
+    └── README.md
 
 .env is included in the local project structure but is excluded from Git using .gitignore.
 
