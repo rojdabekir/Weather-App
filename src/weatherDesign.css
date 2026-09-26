@@ -15,25 +15,25 @@
 }
 
 .weather-app.sunny {
-    background-image: url("/images/sunny.jpg");
+    background-image: url("./images/sunny.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .weather-app.cloudy {
-    background-image: url("/images/clouds.png");
+    background-image: url("./images/clouds.png");
     background-size: cover;
     background-position: center;
 }
 
 .weather-app.rainy {
-    background-image: url("/images/rainy.jpg");
+    background-image: url("./images/rainy.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .weather-app.snowy {
-    background-image: url("/images/snowyy.jpg");
+    background-image: url("./images/snowyy.jpg");
     background-size: cover;
     background-position: center;
 }

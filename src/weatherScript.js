@@ -16,7 +16,13 @@ const degree = document.createElement("h1");
 const cityCountry = document.createElement("h4");
 const earthImg = document.createElement("img");
 
-earthImg.src = `${import.meta.env.BASE_URL}images/planet-earth.png`;
+import earthImage from "./images/planet-earth.png";
+import sunImage from "./images/sun.png";
+import cloudyImage from "./images/cloudy.png";
+import rainImage from "./images/rain-drops.png";
+import snowyImage from "./images/snowy.png";
+
+earthImg.src = earthImage;
 earthImg.classList.add("earth");
 
 additionalInfoBox.classList.add("hidden");
@@ -91,18 +97,18 @@ function changeBackground(weather){
     additionalInfoBox.classList.remove("hidden");
     if(weather==="Clear"){
         weatherApp.classList.add("sunny");
-        iconImg.src = `${import.meta.env.BASE_URL}images/sun.png`;
+        iconImg.src = sunImage;
     }
     else if (weather==="Clouds" || weather==="Mist" || weather==="Fog" || weather==="Haze"){
         weatherApp.classList.add("cloudy");
-        iconImg.src = `${import.meta.env.BASE_URL}images/cloudy.png`;
+        iconImg.src = cloudyImage;
     } 
     else if(weather==="Rain" || weather==="Drizzle" || weather==="Thunderstorm"){
         weatherApp.classList.add("rainy");
-        iconImg.src = `${import.meta.env.BASE_URL}images/rain-drops.png1`;
+        iconImg.src = rainImage;
     }
     else if(weather==="Snow"){
         weatherApp.classList.add("snowy");
-        iconImg.src = `${import.meta.env.BASE_URL}images/snowy.png`;
+        iconImg.src = snowyImage;
     }
 }
